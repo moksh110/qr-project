@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>QR code project</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: antiquewhite;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 20px;
+      width: 300px;
+    }
+    .image {
+      border-radius: 20px;
+      width: 100%;
+    }
+    .qr-info > h1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+    .qr-info > p {
+      font-size: 15px;
+      font-family: "Outfit", sans-serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img class="image" src="./images/image-qr-code.png" />
+      </div>
+      <div class="qr-info">
+        <h1>improve your frond end skills by building projects</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque,
+          doloremque?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
